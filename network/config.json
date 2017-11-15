@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "На этом графике изображена примерная карта моих социальных контактов, взятая из социальной сети \"Вконтакте\". Здесь изображается карта их взаимоотношений между собой, что позволяет проявить моё вхождение в те или иные человеческие сообщества. Однако, многие друзья не имеют дополнительных контактов в моей среде (что не всегда означает отсутствие у них контактов вообще). Не все сообщества имеют реальные границы, посколько, по сути, точность этой статистики носит символический характер (и зависит от воли кого-то заносить или не заносить другого в друзья). Однако, в целом, скомпиллированные данные можно назвать полезными для изучения особенностей социального положения моего существа.",
+    "intro": "Здесь показана карта отношений между людьми, находящимися в моём френдлисте VK",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "Связи",
+    "colorLabel": "Группы общения",
+    "nodeLabel": "Мои друзья в соц. сети"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
